@@ -1003,6 +1003,14 @@ section .container {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  padding-top: 400px; /* Ajusta el espacio superior */
+  padding-bottom: 60px; /* Añade espacio inferior si es necesario */
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -1187,4 +1195,13 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+.motivational-quote {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-top: -900px;
+  margin-left: 0px;
+  font-style: italic;
 }
